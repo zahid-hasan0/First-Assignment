@@ -1,0 +1,100 @@
+
+
+
+
+*{
+    margin: 10px 30px ;
+
+}
+
+
+/*header style*/
+
+
+header{
+    height: 600px;
+    width: 1320px;
+    background-image: url(../image/Banner\ Image.png)!important;
+    
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+
+    
+    margin-top: 20px;
+
+}
+.header{
+    /* background-color: rgba(0, 0, 0, 0.322); */
+    height: 600px;
+    width: 1315px;
+    /* background-color: black; */
+    background: linear-gradient(rgba(0, 0, 0, 0.445) 50%,rgba(255, 255, 255, 0));
+    border-radius: 10px;
+    margin-left: 4px;
+    
+   
+    
+   
+
+    
+    margin-top: 20px;
+}
+
+.header-content{
+    position: absolute;
+    color: white;
+    width: 630px;
+    margin-top: 190px;
+    margin-left: 380px;
+    text-align: center;
+}
+
+.header-title{
+    font-size: 30px;
+    color: #FFF;
+    font-weight: 400;
+}
+
+
+.header-main-text{
+    font-size: 70px;
+    color: white;
+}
+
+
+/*main section style start*/
+
+main{
+    margin-top: 120px;
+}
+
+
+.catagori-container{
+    width: 800px;
+    text-align: center;
+   
+    margin: 0px 300px;
+
+}
+.catagori-title{
+    font-size: 80px;
+    color: red;
+    text-align: center;
+}
+.catagori-sub-title{
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+.catagori-dis{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+.catagori-image{
+    padding-right:10px ;
+    
+}
