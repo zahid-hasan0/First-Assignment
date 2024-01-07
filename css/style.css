@@ -185,3 +185,35 @@ position: relative;
     margin-top: 65px;
     margin-left: 850px;
 }
+
+
+.hotel-banner{
+
+    margin-top: 130px;
+    width: 1320px;
+    height: 420px;
+   background: linear-gradient(rgba(252, 203, 203, 0.863)50%,rgba(255, 255, 255, 0.863));
+   position: relative;
+
+}
+.color-txt{
+    color: red;
+}
+.hotel-dis{
+    justify-content: space-evenly;
+}
+.hotel-container{
+    position: absolute;
+    text-align: center;
+    margin-top: 110px;
+    margin-left: 380px;
+}
+
+.join-now{
+    background-color: red;
+    padding: 16px 32px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+}
