@@ -1,25 +1,26 @@
 
+header{
+    /* margin: 10px 220px; */
 
+    padding: 30px 230px;
 
-
-*{
-    margin: 10px 30px ;
+}
+main{
+    padding: 0px 230px;
 
 }
 
 
-/*header style*/
 
-
-header{
+.header-main{
     height: 600px;
     width: 1320px;
     background-image: url(../image/Banner\ Image.png)!important;
-    
+   
    
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    
    
 
     
@@ -34,12 +35,7 @@ header{
     background: linear-gradient(rgba(0, 0, 0, 0.445) 50%,rgba(255, 255, 255, 0));
     border-radius: 10px;
     margin-left: 4px;
-    
    
-    
-   
-
-    
     margin-top: 20px;
 }
 
@@ -50,18 +46,21 @@ header{
     margin-top: 190px;
     margin-left: 380px;
     text-align: center;
+   
 }
 
 .header-title{
     font-size: 30px;
     color: #FFF;
     font-weight: 400;
+    line-height: 10px;
 }
 
 
 .header-main-text{
     font-size: 70px;
     color: white;
+ 
 }
 
 
@@ -75,8 +74,9 @@ main{
 .catagori-container{
     width: 800px;
     text-align: center;
+    line-height: 10px;
    
-    margin: 0px 260px;
+    margin: 0px auto;
 
 }
 .catagori-title{
@@ -88,11 +88,14 @@ main{
     font-size: 20px;
     text-align: center;
     color: red;
+    margin: 0;
 }
 .catagori-dis{
     font-size: 35px;
     text-align: center;
     font-weight: 700;
+    margin-top: 30px;
+    
 }
 .catagori-image{
     padding-right:10px ;
@@ -139,8 +142,8 @@ position: relative;
     color: white;
     width: 600px;
     text-align: justify;
-    margin-top: 130px;
-    margin-left: 130px;
+    margin-top: 70px;
+    margin-left: 140px;
     padding: 40px;
     
 }
@@ -155,13 +158,15 @@ position: relative;
 .party-heading{
     width: 500px;
     font-size: 70px;
+    margin-bottom: 0px;
     
     font-weight: bold;
 }
 .party-dis{
-    font-size: 15px;
+    font-size: 18px;
     font-weight:0;
     margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.80);;
 }
 #join{
     font-size: 25px;
@@ -207,6 +212,7 @@ position: relative;
     text-align: center;
     margin-top: 110px;
     margin-left: 380px;
+    padding: 0px 120px;
 }
 
 .join-now{
@@ -223,6 +229,7 @@ position: relative;
     text-align: justify;
     position: relative;
     margin-top: 150px;
+    gap: 50px;
 }
 .coming-column1{
     height: 400px;
@@ -232,7 +239,7 @@ position: relative;
 }
 .coming-column2{
     position: relative;
-     border: 4px solid red; 
+     border: 10px solid red; 
      border-radius: 400px; 
     text-align: left;
     height: 400px;
@@ -244,6 +251,7 @@ position: relative;
 .coming-image{
     margin-top: 25px;
     margin-right: 10px;
+    margin-left: 25px;
     height: 350px;
     width: 350px;
     background-image: url(../image/Ellipse\ 1.png);
@@ -257,23 +265,53 @@ position: relative;
     font-size: 25px;
     text-align: justify;
     padding-top: 80px;
+    margin-bottom: 0;
 }
 .coming-heading{
     font-size: 50px;
     text-align: justify;
+    margin-top: 0;
+    margin-bottom: 25px;
 }
 .coming-dis{
     font-size: 20px;
     text-align: justify;
-}
 
+}
+.coming-column3{
+    padding-left: 100px;
+}
 
 .group-heading{
     color: red;
     font-size: 70px;
     font-weight: 900;
     padding-top: 90px;
+    margin-bottom: 0;
 }
 .group-dis{
+    margin-top: 10px;
     width: 200px;
+}
+
+
+/*holiday section style*/
+
+.holiday{
+    width:1320px;
+    margin-top: 100px;
+}
+
+.holiday-row{
+    width: 1320px;
+  
+    text-align: center;
+}
+.row-subheading{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.row-heading{
+    margin-top: 10px;
+    font-size: 60px;
 }
