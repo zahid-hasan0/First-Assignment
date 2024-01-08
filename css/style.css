@@ -1,15 +1,20 @@
 
-header{
-    /* margin: 10px 220px; */
+header{ 
+     /* margin: 10px 220px;  */
 
-    padding: 30px 230px;
+     padding: 30px 70px;
 
-}
+} 
+
 main{
-    padding: 0px 230px;
-
+    padding: 30px 70px;
 }
 
+
+*{
+    max-width: 100%;
+
+}
 
 
 .header-main{
@@ -373,9 +378,10 @@ position: relative;
     margin-bottom: 10px;
 }
 .protfolio-dis{
-    width: 50%;
+    width: 70%;
     font-size: 20px;
     text-align: left;
+    color: rgba(0, 0, 0, 0.527);
 }
 
 .protfolio-row{
