@@ -228,6 +228,7 @@ position: relative;
 }
 
 .coming{
+    width: 1320px;
     display: flex;
     text-align: justify;
     position: relative;
@@ -235,11 +236,13 @@ position: relative;
     gap: 50px;
 }
 .coming-column1{
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width:600px;
+   
     margin-top: 30px;
-    padding-right: 70px;
-    margin-right: 10px;
+    text-align: left;
+   
+    /* margin-right: 10px; */
 }
 .coming-column2{
     position: relative;
@@ -255,7 +258,7 @@ position: relative;
 
 .coming-image{
     margin-top: 25px;
-    margin-right: 10px;
+    margin-right: 19px;
     margin-left: 25px;
     height: 350px;
     width: 350px;
@@ -273,7 +276,9 @@ position: relative;
     margin-bottom: 0;
 }
 .coming-heading{
-    font-size: 70px;
+    font-size: 50px;
+    width: 90%;
+    
     text-align: justify;
     margin-top: 0;
     margin-bottom: 25px;
