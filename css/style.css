@@ -69,6 +69,9 @@ main{
 main{
     margin-top: 120px;
 }
+.catagori{
+    width: 1320px;
+}
 
 
 .catagori-container{
@@ -235,6 +238,7 @@ position: relative;
     height: 400px;
     width: 400px;
     margin-top: 30px;
+    padding-right: 70px;
     margin-right: 10px;
 }
 .coming-column2{
@@ -245,6 +249,7 @@ position: relative;
     height: 400px;
     width: 400px;
     margin-top: 30px;
+   
     margin-right: 10px;
 }
 
@@ -262,36 +267,38 @@ position: relative;
 
 .coming-title{
     color: red;
-    font-size: 25px;
+    font-size: 30px;
     text-align: justify;
     padding-top: 80px;
     margin-bottom: 0;
 }
 .coming-heading{
-    font-size: 50px;
+    font-size: 70px;
     text-align: justify;
     margin-top: 0;
     margin-bottom: 25px;
 }
 .coming-dis{
-    font-size: 20px;
+    font-size: 22px;
     text-align: justify;
+    color: rgb(65, 66, 66);
 
 }
 .coming-column3{
-    padding-left: 100px;
+    padding-left: 70px;
 }
 
 .group-heading{
     color: red;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 900;
     padding-top: 90px;
     margin-bottom: 0;
 }
 .group-dis{
-    margin-top: 10px;
-    width: 200px;
+    margin-top: 22px;
+    width: 250px;
+    color: rgb(60, 61, 61);
 }
 
 
@@ -314,4 +321,69 @@ position: relative;
 .row-heading{
     margin-top: 10px;
     font-size: 60px;
+}
+.row-dis{
+    width: 1000px;
+    margin-left: 150px;
+}
+
+
+
+.holiday-banner{
+    width: 1320px;
+    height: 800px;
+    background-image: url(../image/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+}
+.holiday-image{
+   width: 50%;
+   padding-top: 100px;
+}
+.holiday-image1{
+    width: 50%;
+    height: 500px;
+    padding-top: 72px;
+    background-image: url(../image/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+/*protfolio section style*/
+
+.profolio{
+    margin-top: 140px;
+    width: 1320px;
+}
+
+.protfolio-title{
+    font-size: 25px;
+    color: red;
+}
+.protfolio-heading{
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+.protfolio-dis{
+    width: 50%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.protfolio-row{
+    width: 1320px;
+    display: flex;
+   
+   
+    
+}
+.protfolio-image{
+    width: 400px;
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-right: 40px;
 }
