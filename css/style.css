@@ -65,6 +65,7 @@ main{
 .header-main-text{
     font-size: 70px;
     color: white;
+    font-weight: 900;
  
 }
 
@@ -214,6 +215,7 @@ position: relative;
 }
 .hotel-dis{
     justify-content: space-evenly;
+    font-size: 25px;
 }
 .hotel-container{
     position: absolute;
@@ -225,11 +227,13 @@ position: relative;
 
 .join-now{
     background-color: red;
-    padding: 16px 32px;
+    padding: 20px 35px;
     font-size: 20px;
     border-radius: 20px;
     border: 0;
     color: white;
+    font-size: 25px;
+    font-weight: 700;
 }
 
 .coming{
@@ -242,7 +246,7 @@ position: relative;
 }
 .coming-column1{
     height: 500px;
-    width:600px;
+    width:450px;
    
     margin-top: 30px;
     text-align: left;
@@ -335,6 +339,7 @@ position: relative;
 .row-dis{
     width: 1000px;
     margin-left: 150px;
+    font-size: 22px;
 }
 
 
